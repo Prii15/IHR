@@ -1,23 +1,26 @@
-# **Nome do Robô:** Aplicação do robô
+# **Nome do Robô:** Entretenimento
 
 Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interação Humano-Robô (IHR) (CCR230) do curso de Engenharia de Robôs, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Caio Puertas
+- Luis Ccopa Ibarra
+- Priscila Cunha Vazquez
+- Nityananda Vianna Saraswati
 
 ## Resumo
 
-Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
+O presente projeto apresenta o desenvolvimento de um robô autônomo de duas rodas, capaz de se equilibrar dinamicamente e interagir com usuários por meio de expressões visuais, gestos e movimentos corporais. O robô possui um design voltado para o entretenimento, destacando-se por sua estética fofa, com orelhas móveis, olhos animados exibidos em um display e LEDs no peito. Sua aplicação concentra-se na criação de experiências lúdicas e envolventes, proporcionando interações sociais atrativas para diferentes contextos de entretenimento.
 
 ## Introdução
 
-- Apresente uma contextualização para o problema que o seu robô irá resolver e por quê esse tipo de robô é necessário hoje na sociedade.
-- Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
-- Em uma única frase, resuma o objetivo do seu robô.
-- Que tipo de experiência o robô deve proporcionar para os usuários?
+Na sociedade contemporânea, a presença de robôs não se limita mais a ambientes industriais ou tarefas repetitivas: cresce a demanda por máquinas capazes de interagir de forma social, empática e lúdica. Robôs de entretenimento têm se consolidado como uma vertente importante, especialmente em áreas como educação, eventos, recepção e ambientes domésticos, onde a interação emocional e a experiência do usuário são tão relevantes quanto a funcionalidade técnica.
+
+O robô proposto neste trabalho foi concebido com base nesse cenário. Trata-se de um robô autônomo de duas rodas, que se equilibra dinamicamente e apresenta um design cativante, inspirado em personagens de estética fofa e em robôs de entretenimento como os BDX da Disney. Ele conta com orelhas móveis, olhos animados exibidos em um display, LEDs no peito e movimentos de cabeça sincronizados às interações. Sua aplicação principal é o entretenimento por meio de expressões faciais, reatividade a gestos humanos e comportamento interativo, estabelecendo uma conexão emocional com o público.
+
+O objetivo central do robô é proporcionar experiências interativas e envolventes através de um design expressivo e de respostas dinâmicas aos estímulos do usuário.
+
 
 ## Publico Alvo
 
