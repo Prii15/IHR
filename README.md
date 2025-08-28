@@ -4,8 +4,8 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Componentes do Grupo
 
-- Caio Puertas
-- Luis Ccopa Ibarra
+- Caio Puertas Popolin Garcia
+- Luis Augusto Ccopa Ibarra
 - Nityananda Vianna Saraswati
 - Priscila Cunha Vazquez
 - Victor M O de Mello Ayres
