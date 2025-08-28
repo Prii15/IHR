@@ -6,8 +6,10 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 - Caio Puertas
 - Luis Ccopa Ibarra
-- Priscila Cunha Vazquez
 - Nityananda Vianna Saraswati
+- Priscila Cunha Vazquez
+- Victor M O de Mello Ayres
+
 
 ## Resumo
 
