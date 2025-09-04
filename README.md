@@ -26,7 +26,7 @@ O objetivo central do robô é proporcionar experiências interativas e envolven
 
 ## Publico Alvo
 
-- Determine o seu público alvo:
+- Determine o seu público alvo: crianças, adultos que ainda se encantam com entretenimento, nerds de tecnologia.
 
 ### Personas
 
