@@ -26,12 +26,28 @@ O objetivo central do robô é proporcionar experiências interativas e envolven
 
 ## Publico Alvo
 
-- Determine o seu público alvo: crianças, adultos que ainda se encantam com entretenimento, nerds de tecnologia.
+No publico alvo deste trabalho estão inclusas:
+- crianças 
+- adultos que se encantam com entretenimento
+- nerds de tecnologia.
 
 ### Personas
 
+Três personas foram planejadas para este projeto. Elas englobam idades e perspectivas diferentes porém com um objetivo central de entreterimento.
+
+
+#### Persona primária: Enzo, uma criança imaginativa.
+
+Enzo é uma criança de 8 anos curiosa e com uma vasta imaginação. Vive em um ambiente urbano, com forte contato com mídia de entretenimento infantil e cultura pop. É fã de Star Wars e de histórias fantásticas. Ainda acredita em figuras fictícias como Papai Noel.
+Tem contato frequente com tecnologia, mas sem conhecimento aprofundado. Gosta de brincar de faz de conta com amigos do condomínio.
+O objetivo da sua interação com o robô será vivenciar uma experiencia lúdica que reforce o seu mundo de fantasia, sem que a "magia" seja quebrada. Para tanto, as expectativas de Enzo sobre o robô são:
+- Reaja a ações da criança, tanto verbais quanto não verbais (gestos, expressões).
+- Movimente-se de forma autônoma pelo espaço sem colisões.
+- Sirva como um “companheiro de brincadeiras”.
+
+
 - Descreva as personas que irão interagir com o robô. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o robô deve saber antes de iniciar a tarefa?
+
 
   - Persona primaira ...
   - Persona secundária ...
