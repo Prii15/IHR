@@ -50,15 +50,16 @@ Um trabalhador de classe média com 28 anos que cresceu em contato com a cultura
 - Reviver uma experiência mágica, de forma consciente e divertida, sem exigir uma imersão completa.
 - O robô deve agir como um “bobo da corte tecnológico”, valorizando a leveza da experiência.
 - As reações do robô devem ser espontâneas e engraçadas para não dependerem da imaginação do espectador.
-- O robô deve trazer lembranças de personagens e brincadeiras do passado, mas sem perder o caráter tecnológico.
 
-
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+#### Persona terciária: Lucas, o nerd tecnófilo.
+Lucas tem 21 anos de idade e está cursando ensino superior em uma área de tecnologia. Vive em uma classe média/alta em ambiente urbano com acesso a dispositivos eletrônicos, eventos geek e comunidades online. É um ávido consumidor de de cultura pop, fã de ficção científica e de universos tecnológicos. Aprecia tanto a fantasia quanto a inovação. As expectativas de Lucas sobre o robô são:
+- O robô deve manter a imersão e encantamento da experiência.
+- O robô precisa deixar claro o seu caráter inovador e tecnológico.
+- O robô deve supreender o público pela integração do lúdico e as suas capacidades técnicas (movimentação autônoma, reconhecimento, interação responsiva).
 
 ### Mapa de empatia
 
+## Mapa de empatia de Enzo:
 ![Mapa de empatia](empatia.png)
 
 - Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
