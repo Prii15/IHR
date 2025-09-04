@@ -27,26 +27,30 @@ O objetivo central do robô é proporcionar experiências interativas e envolven
 ## Publico Alvo
 
 No publico alvo deste trabalho estão inclusas:
-- crianças 
-- adultos que se encantam com entretenimento
-- nerds de tecnologia.
+- Crianças com imaginação
+- Adultos que se encantam com entretenimento
+- Nerds de tecnologia e ficção científica
 
 ### Personas
 
-Três personas foram planejadas para este projeto. Elas englobam idades e perspectivas diferentes porém com um objetivo central de entreterimento.
+Três personas foram planejadas para este projeto. Elas englobam idades e perspectivas diferentes porém com um objetivo central de interatividade e entretenimento.
 
 
 #### Persona primária: Enzo, uma criança imaginativa.
 
-Enzo é uma criança de 8 anos curiosa e com uma vasta imaginação. Vive em um ambiente urbano, com forte contato com mídia de entretenimento infantil e cultura pop. É fã de Star Wars e de histórias fantásticas. Ainda acredita em figuras fictícias como Papai Noel.
+Enzo é uma criança de 8 anos curiosa e com uma vasta imaginação. Possui uma vida de classe média em um ambiente urbano, com forte contato com mídia de entretenimento infantil e cultura pop. É fã de Star Wars e de histórias fantásticas e acredita em figuras fictícias como Papai Noel.
 Tem contato frequente com tecnologia, mas sem conhecimento aprofundado. Gosta de brincar de faz de conta com amigos do condomínio.
 O objetivo da sua interação com o robô será vivenciar uma experiencia lúdica que reforce o seu mundo de fantasia, sem que a "magia" seja quebrada. Para tanto, as expectativas de Enzo sobre o robô são:
 - Reaja a ações da criança, tanto verbais quanto não verbais (gestos, expressões).
 - Movimente-se de forma autônoma pelo espaço sem colisões.
 - Sirva como um “companheiro de brincadeiras”.
 
-
-- Descreva as personas que irão interagir com o robô. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
+#### Persona secundária: João, um adulto nostálgico.
+Um trabalhador de classe média com 28 anos que cresceu em contato com a cultura geek/nerd e é fã de diversos personagens e universos fictícios porém consciente da distinção entre fantasia e realidade. Tem uma atitude descontraída e, no seu lazer, busca experiências lúdicas que gerem momentos de humor e fantasia semelhantes à sua infáncia. As suas expectativas com relação ao robô são:
+- Reviver uma experiência mágica, de forma consciente e divertida, sem exigir uma imersão completa.
+- O robô deve agir como um “bobo da corte tecnológico”, valorizando a leveza da experiência.
+- As reações do robô devem ser espontâneas e engraçadas para não dependerem da imaginação do espectador.
+- O robô deve trazer lembranças de personagens e brincadeiras do passado, mas sem perder o caráter tecnológico.
 
 
   - Persona primaira ...
