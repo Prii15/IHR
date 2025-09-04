@@ -59,8 +59,15 @@ Lucas tem 21 anos de idade e está cursando ensino superior em uma área de tecn
 
 ### Mapa de empatia
 
-## Mapa de empatia de Enzo:
-![Mapa de empatia](empatia.png)
+#### Mapa de empatia de Enzo:
+![Mapa de empatia](meEnzo.png)
+
+#### Mapa de empatia de João:
+![Mapa de empatia](meJoao.png)
+
+#### Mapa de empatia de Lucas:
+![Mapa de empatia](meLucas.png)
+
 
 - Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
   - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
