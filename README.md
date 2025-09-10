@@ -1,4 +1,4 @@
-# **Nome do Robô:** Entretenimento
+# **WBR:** Entretenimento
 
 Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interação Humano-Robô (IHR) (CCR230) do curso de Engenharia de Robôs, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
@@ -70,9 +70,40 @@ Lucas tem 21 anos de idade e está cursando ensino superior em uma área de tecn
 
 ## Contexto de uso
 
-- Descreva o ambiente em que o robô interage com os usuários
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente o robô deve saber antes de iniciar a tarefa?
+O robô proposto é voltado para ambientes de entretenimento e interação social, nos quais o aspecto lúdico é o elemento central. Seu design expressivo, aliado às capacidades de resposta autônoma, permite que ele seja utilizado em situações diversas, desde encontros informais até eventos organizados.
+
+### Ambiente de interação
+
+O robô é projetado para atuar em ambientes seguros e controlados, mas não totalmente determinísticos, como:
+- Eventos temáticos.
+- Exposições de robótica e tecnologia em centros universitários ou feiras.
+- Espaços culturais e recreativos.
+
+Esses ambientes apresentam circulação de pessoas, estímulos visuais variados e obstáculos que exigem que o robô seja capaz de se mover sem colisões, adaptando-se dinamicamente.
+
+### Contextos sociais, econômicos e culturais
+
+O público-alvo do robô abrange crianças, adultos nostálgicos e entusiastas de tecnologia, que compartilham alguns aspectos em comum:
+- Social: procuram experiências de lazer e conexão social que envolvam imaginação, humor e inovação.
+- Econômico: a experiência está inserida majoritariamente em um público de classe média/alta, com acesso a espaços de entretenimento, cultura digital e tecnologia.
+- Cultural: há uma forte influência da cultura pop, da ficção científica, da cultura geek/nerd e da fantasia infantil. Filmes, jogos, séries e universos ficcionais servem de referência simbólica para a experiência com o robô.
+
+### Informações que o robô deve saber antes de iniciar a tarefa
+
+Para garantir uma interação fluida e coerente, o robô deve ter conhecimento prévio sobre aspectos do ambiente e do público:
+
+#### Características do espaço físico:
+
+- Localização de obstáculos fixos (paredes, móveis, barreiras).
+- Presença de áreas de circulação intensa.
+- Dimensões que permitam navegação sem colisão.
+
+#### Condições de interação:
+
+- Luminosidade (para funcionamento da câmera e expressividade dos LEDs).
+- Contexto do evento (infantil, geek, tecnológico ou doméstico), de modo a ajustar o roteiro/“script” do personagem.
+
+
 
 ## Jornada do usuário
 
