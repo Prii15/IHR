@@ -36,7 +36,7 @@ No publico alvo deste trabalho estão inclusas:
 Três personas foram planejadas para este projeto. Elas englobam idades e perspectivas diferentes porém com um objetivo central de interatividade e entretenimento.
 
 
-#### Persona primária: Enzo, uma criança imaginativa.
+#### Persona primária 1: Enzo, uma criança imaginativa.
 
 Enzo é uma criança de 8 anos curiosa e com uma vasta imaginação. Possui uma vida de classe média em um ambiente urbano, com forte contato com mídia de entretenimento infantil e cultura pop. É fã de Star Wars e de histórias fantásticas e acredita em figuras fictícias como Papai Noel.
 Tem contato frequente com tecnologia, mas sem conhecimento aprofundado. Gosta de brincar de faz de conta com amigos do condomínio.
@@ -45,13 +45,13 @@ O objetivo da sua interação com o robô será vivenciar uma experiencia lúdic
 - Movimente-se de forma autônoma pelo espaço sem colisões.
 - Sirva como um “companheiro de brincadeiras”.
 
-#### Persona secundária: João, um adulto nostálgico.
+#### Persona primária 2: João, um adulto nostálgico.
 Um trabalhador de classe média com 28 anos que cresceu em contato com a cultura geek/nerd e é fã de diversos personagens e universos fictícios porém consciente da distinção entre fantasia e realidade. Tem uma atitude descontraída e, no seu lazer, busca experiências lúdicas que gerem momentos de humor e fantasia semelhantes à sua infáncia. As suas expectativas com relação ao robô são:
 - Reviver uma experiência mágica, de forma consciente e divertida, sem exigir uma imersão completa.
 - O robô deve agir como um “bobo da corte tecnológico”, valorizando a leveza da experiência.
 - As reações do robô devem ser espontâneas e engraçadas para não dependerem da imaginação do espectador.
 
-#### Persona terciária: Lucas, o nerd tecnófilo.
+#### Persona primária 3: Lucas, o nerd tecnófilo.
 Lucas tem 21 anos de idade e está cursando ensino superior em uma área de tecnologia. Vive em uma classe média/alta em ambiente urbano com acesso a dispositivos eletrônicos, eventos geek e comunidades online. É um ávido consumidor de de cultura pop, fã de ficção científica e de universos tecnológicos. Aprecia tanto a fantasia quanto a inovação. As expectativas de Lucas sobre o robô são:
 - O robô deve manter a imersão e encantamento da experiência.
 - O robô precisa deixar claro o seu caráter inovador e tecnológico.
