@@ -103,8 +103,6 @@ Para garantir uma interação fluida e coerente, o robô deve ter conhecimento p
 - Luminosidade (para funcionamento da câmera e expressividade dos LEDs).
 - Contexto do evento (infantil, geek, tecnológico ou doméstico), de modo a ajustar o roteiro/“script” do personagem.
 
-
-
 ## Jornada do usuário
 
 - Criar uma narrativa para o o seu robô e o usuário.
@@ -113,6 +111,37 @@ Para garantir uma interação fluida e coerente, o robô deve ter conhecimento p
   - Descreva o que acontece ou pode acontecer passo a passo
   - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
 - Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
+
+### Estado inicial (Idle)
+O robô está posicionado em um ambiente com várias pessoas.
+Permanece em “modo de espera”, exibindo expressões curiosas nos olhos e movimentos sutis (como piscar e mexer levemente a cabeça/orelhas) para parecer “vivo” mesmo sem interação.
+
+### Detecção de aproximação
+O robô identifica que uma pessoa se aproximou dentro de um raio de 2 metros.
+Sua expressão visual muda para indicar interesse (olhos passam a acompanhar a pessoa, orelhas se erguem, LEDs piscam).
+Ele inicia um movimento suave em direção à pessoa, parando a cerca de 1 metro de distância.
+
+### Início da interação
+O robô estabelece contato “não-verbal” com a pessoa: olha diretamente, pisca, inclina a cabeça.
+Se a pessoa faz um gesto (como acenar, estender a mão, abaixar-se), o robô responde com animações correspondentes (movimento de orelhas, LEDs piscando, movimentos do corpo).
+
+### Exploração da interação
+A interação evolui em ciclos curtos, sempre dependente da iniciativa da pessoa:
+Gestos → robô reage de forma lúdica (aproximar, recuar, girar, inclinar cabeça).
+Movimentação da pessoa → robô pode segui-la com a cabeça ou com o corpo dentro de um espaço delimitado.
+O robô adapta suas reações de acordo com o ambiente: se há obstáculos, ele evita colisões; se há várias pessoas, mantém foco em apenas um usuário por vez.
+
+### Manutenção do engajamento
+Durante alguns minutos, o robô alterna reações espontâneas (piscar LEDs, balançar orelhas, girar levemente) com respostas ao usuário.
+Caso perceba perda de atenção do usuário (ex.: a pessoa olha para outro lado ou se afasta), o robô diminui a intensidade das respostas.
+
+### Encerramento da interação
+Se a pessoa se afasta além de 2 metros, o robô entende que a interação terminou.
+Ele retorna para o estado de idle: postura curiosa, buscando por alguém para interagir, expressões suaves.
+Permanece atento a novos usuários que possam se aproximar.
+
+
+
 
 ## Análise de concorrência
 
