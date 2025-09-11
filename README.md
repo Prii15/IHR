@@ -169,7 +169,9 @@ Permanece atento a novos usuários que possam se aproximar.
 - **Pontos Negativos:**  
   - Não é comercializado (uso exclusivo da Disney).  
   - Restrito a parques e shows em ambientes controlados.  
-  - Engenharia complexa, alto custo e manutenção difícil.  
+  - Engenharia complexa, alto custo e manutenção difícil.
+  - 
+O que aprendemos com este concorrente: O controle por compensadores PID já se tornou uma técnica tradicional e antiga no mundo da robótica comtemporânea. A novidade introduzida pela Disney é o uso do aprendizado de máquina em ambientes virtuais como o Newton desenvolvido pela NVIDIA. A modelagem do robô no ambiente virtual permite o treinamento do robô de modo que ele mesmo encontre soluções para o próprio equilíbrio. Resultando em movimentações mais espontâneas e uma qualidade na reação melhorada. Alguns projetos de pesquisa da Disney incluem também modelos de caminhada estilizados que foram utilizados neste robô.
 
 ## Concorrente 3 – Vector (Anki / Digital Dream Labs)
 **Plataforma:** Diferente (mais próximo de brinquedo inteligente e assistente doméstico).  
