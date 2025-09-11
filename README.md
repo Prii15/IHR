@@ -142,15 +142,51 @@ Permanece atento a novos usuários que possam se aproximar.
 
 
 
+#  Análise de Concorrência
 
-## Análise de concorrência
+## Concorrente 1 – Mirokaï Explorer Suit (Enchanted Tools)
+**Plataforma:** Similar (robô de interação e entretenimento, com design carismático e autonomia avançada).  
 
-- Pesquise robôs existentes atualmente que possam fazer a tarefa deste projeto.
-- Selecione pelo menos 3 robôs diferentes que podem fazer essa tarefa.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
+- **Pontos Positivos:**  
+  - Design inspirado em personagens animados, alto apelo emocional.  
+  - Navegação autônoma robusta (ball-bot com VSLAM).  
+  - Conversação avançada com IA multimodal (voz, visão, emoção).  
+  - Aplicações em hospitais, hotéis e eventos.  
+
+- **Pontos Negativos:**  
+  - Custo muito elevado (~U$30.000 + taxas).  
+  - Grande porte, pouco prático para ambientes domésticos.  
+  - Necessidade de manutenção profissional.  
+
+## Concorrente 2 – Robô Bípede de Entretenimento (Disney Research)
+**Plataforma:** Similar (foco em entretenimento imersivo e carisma).  
+
+- **Pontos Positivos:**  
+  - Movimentos expressivos e naturais, transmitindo personalidade.  
+  - Forte integração com storytelling e experiências imersivas.  
+  - Pesquisa de ponta em equilíbrio bípede e expressividade.  
+
+- **Pontos Negativos:**  
+  - Não é comercializado (uso exclusivo da Disney).  
+  - Restrito a parques e shows em ambientes controlados.  
+  - Engenharia complexa, alto custo e manutenção difícil.  
+
+## Concorrente 3 – Vector (Anki / Digital Dream Labs)
+**Plataforma:** Diferente (mais próximo de brinquedo inteligente e assistente doméstico).  
+
+- **Pontos Positivos:**  
+  - Preço acessível em comparação com outros robôs.  
+  - Carisma forte através de expressões faciais animadas.  
+  - Reconhecimento de rostos e integração com assistentes virtuais.  
+
+- **Pontos Negativos:**  
+  - Funcionalidades limitadas (sem braços, sem equilíbrio dinâmico).  
+  - Autonomia baixa, depende de base de recarga frequente.  
+  - Histórico de instabilidade da empresa (Anki → Digital Dream Labs).  
+
+## Conclusão
+O robô **bípede da Disney Research** é considerado o mais interessante, pois foi a principal inspiração do projeto.  
+Ele demonstra como unir **robótica avançada** e **narrativa lúdica** pode gerar experiências imersivas de alto impacto, alinhando-se diretamente ao objetivo do nosso desenvolvimento.
 
 ## Design
 
