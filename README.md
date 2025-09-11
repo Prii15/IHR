@@ -156,7 +156,9 @@ Permanece atento a novos usuários que possam se aproximar.
 - **Pontos Negativos:**  
   - Custo muito elevado (~U$30.000 + taxas).  
   - Grande porte, pouco prático para ambientes domésticos.  
-  - Necessidade de manutenção profissional.  
+  - Necessidade de manutenção profissional.
+
+Sobre este concorrente, o que concluímos é que a cinematica e o controle são muito complexos por se tratar de um **ball-bot**, então para o tipo de ambiente que queremos implementá-lo se torna inviável. Apesar disso, a presença de um **LLM avançado para comunicação** é um ponto de destaque. Seria interessante considerar esse tipo de recurso para implementar conversação mais fluida no nosso projeto.
 
 ## Concorrente 2 – Robô Bípede de Entretenimento (Disney Research)
 **Plataforma:** Similar (foco em entretenimento imersivo e carisma).  
@@ -184,11 +186,9 @@ O que aprendemos com este concorrente: O controle por compensadores PID já se t
 - **Pontos Negativos:**  
   - Funcionalidades limitadas (sem braços, sem equilíbrio dinâmico).  
   - Autonomia baixa, depende de base de recarga frequente.  
-  - Histórico de instabilidade da empresa (Anki → Digital Dream Labs).  
-
-## Conclusão
-O robô **bípede da Disney Research** é considerado o mais interessante, pois foi a principal inspiração do projeto.  
-Ele demonstra como unir **robótica avançada** e **narrativa lúdica** pode gerar experiências imersivas de alto impacto, alinhando-se diretamente ao objetivo do nosso desenvolvimento.
+  - Histórico de instabilidade da empresa (Anki → Digital Dream Labs).
+    
+O concorrente Vector se destaca pelo preço acessível e pelo apelo carismático, mas suas funcionalidades são limitadas. É mais próximo de um brinquedo inteligente do que de um robô imersivo. Mesmo assim, sua forma de expressividade facial e interação simples serve como referência para estratégias de design emocional que podem ser aproveitadas no nosso robô.
 
 ## Design
 
