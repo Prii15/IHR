@@ -197,8 +197,7 @@ O concorrente Vector se destaca pelo preço acessível e pelo apelo carismático
 - O seu robô tem um padrão com mais ou menos características antropomórficas? Qual padrão é mais aceito pela sociedade dentro do projeto que você está desenvolvendo?
 - Quais o design mais apropriado para o robô deste projeto? Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas)
 
-<!-- ![Partes do robô](partes_do_robo.png) -->
-<!-- ![Robô](robo.png) -->
+- [Modelos da peças individuais do robô](wbr/meshes)
 <img alt="Partes do robô" src="partes_do_robo.png" height="200"/>
 <img alt="Robô" src="robo.png" height="200"/>
 
