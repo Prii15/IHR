@@ -146,6 +146,96 @@
       </visual>
     </link> 
 
+    <!-- link: pescoco -->
+    <link name="pescoco">
+    <pose relative_to="chassi">0 0 -0.015 1.5708 0 0</pose> 
+
+      <visual name="pescoco_visual">
+        <geometry>
+          <mesh>
+            <uri>model://wbr/meshes/Chassi_Tcc_pescoco.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+        </material>
+      </visual>
+    </link> 
+
+    <!-- link: pescoco2 -->
+    <link name="pescoco2">
+    <pose relative_to="pescoco">0 0 0 0 0 0</pose> 
+
+      <visual name="pescoco2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://wbr/meshes/Chassi_Tcc_pescoco2.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+        </material>
+      </visual>
+    </link> 
+
+    <!-- link: cabeca -->
+    <link name="cabeca">
+    <pose relative_to="pescoco2">0 0 0 0 0 0</pose> 
+
+      <visual name="cabeca_visual">
+        <geometry>
+          <mesh>
+            <uri>model://wbr/meshes/Chassi_Tcc_cabecc.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.5 0.5 0.5 1</ambient>
+          <diffuse>0.5 0.5 0.5 1</diffuse>
+        </material>
+      </visual>
+    </link> 
+
+    <!-- link: orelha_dir -->
+    <link name="orelha_dir">
+    <pose relative_to="cabeca">0 0 0 0 0 0</pose> 
+
+      <visual name="orelha_dir_visual">
+        <geometry>
+          <mesh>
+            <uri>model://wbr/meshes/Chassi_Tcc_orelha_dir.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+        </material>
+      </visual>
+    </link> 
+
+    <!-- link: orelha_esq -->
+    <link name="orelha_esq">
+    <pose relative_to="cabeca">0 0 0 0 0 0</pose> 
+
+      <visual name="orelha_esq_visual">
+        <geometry>
+          <mesh>
+            <uri>model://wbr/meshes/Chassi_Tcc_orelha_esq.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 0 1</ambient>
+          <diffuse>0 0 0 1</diffuse>
+        </material>
+      </visual>
+    </link> 
+
     <!-- joint: base_footprint -> chassi -->
     <joint name="joint_base_footprint_to_chassi" type="fixed">
       <parent>base_footprint</parent>
@@ -172,6 +262,81 @@
         <xyz>1 0 0</xyz>
         <limit>
           <effort>50</effort> <!-- from <wheel_torque> in libgazebo_ros_diff_drive.so.-->
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- joint: chassi -> pescoco -->
+    <joint name="servo_Z" type="revolute">
+      <parent>chassi</parent>
+      <child>pescoco</child>
+      <axis>
+        <xyz>0 0 1</xyz> <!-- eixo da junta no link pai -->
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>5</effort>
+          <velocity>1</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- joint: pescoco -> pescoco2 -->
+    <joint name="servo_X" type="revolute">
+      <parent>pescoco</parent>
+      <child>pescoco2</child>
+      <axis>
+        <xyz>0 0 1</xyz> <!-- eixo da junta no link pai -->
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>5</effort>
+          <velocity>1</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- joint: pescoco2 -> cabeca -->
+    <joint name="servo_Y" type="revolute">
+      <parent>pescoco2</parent>
+      <child>cabeca</child>
+      <axis>
+        <xyz>0 0 1</xyz> <!-- eixo da junta no link pai -->
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>5</effort>
+          <velocity>1</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- joint: cabeca -> orelha_dir -->
+    <joint name="servo_od" type="revolute">
+      <parent>cabeca</parent>
+      <child>orelha_dir</child>
+      <axis>
+        <xyz>0 0 1</xyz> <!-- eixo da junta no link pai -->
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>5</effort>
+          <velocity>1</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- joint: cabeca -> orelha_esq -->
+    <joint name="servo_oe" type="revolute">
+      <parent>cabeca</parent>
+      <child>orelha_esq</child>
+      <axis>
+        <xyz>0 0 1</xyz> <!-- eixo da junta no link pai -->
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+          <effort>5</effort>
+          <velocity>1</velocity>
         </limit>
       </axis>
     </joint>
