@@ -244,7 +244,7 @@ Esse uso de **formas primitivas (caixas, cilindros, esferas)** facilita tanto a 
 - [Chassi_Tcc_pescoco2.stl](wbr/meshes/Chassi_Tcc_pescoco2.stl) 
 - [motor.stl](wbr/meshes/motor.stl)
 
-<img alt="Robô" src="robo.png" height="200"/>
+<img alt="Robô" src="robo.jpg" height="200"/>
 
 ## Ações do robô
 
