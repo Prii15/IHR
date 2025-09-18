@@ -192,10 +192,43 @@ O concorrente Vector se destaca pelo preço acessível e pelo apelo carismático
 
 ## Design
 
-- Pense nas características de Affordances do seu robô. Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
-- Discuta o papel das expectativas do usuário no projeto de um robô. Qual a importância e pontos a serem considerados se você quiser vender esse robô  seu robô?
-- O seu robô tem um padrão com mais ou menos características antropomórficas? Qual padrão é mais aceito pela sociedade dentro do projeto que você está desenvolvendo?
-- Quais o design mais apropriado para o robô deste projeto? Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas)
+## Affordances do Robô  
+O design do robô é inspirado em referências conhecidas da cultura pop, o que facilita a identificação e aproximação do usuário. Suas affordances (percepções de usabilidade transmitidas pelo design) devem priorizar:  
+- **Olhos grandes e expressivos**, que comunicam estados emocionais (feliz, atento, curioso) e tornam a interação mais intuitiva.  
+- **Orelhas laterais móveis**, que funcionam como indicadores visuais de reações (semelhantes a expressões corporais em animais).  
+- **Corpo ovalado e rodas largas**, transmitindo estabilidade e segurança, reduzindo a percepção de risco de queda.  
+- **Interface de fácil entendimento**, sem excesso de botões ou comandos ocultos, já que o próprio design sugere sua função lúdica e amigável.  
+
+Esses elementos aumentam a acessibilidade ao projeto, permitindo que crianças, adultos e até pessoas sem familiaridade com tecnologia consigam interagir com o robô de forma natural.  
+
+---
+
+## Expectativas do Usuário  
+As expectativas do usuário exercem papel central no design do robô. Pessoas tendem a esperar que robôs com **traços “fofos” e antropomórficos** sejam amistosos, responsivos e divertidos, enquanto robôs com aparência mecânica transmitem seriedade e eficiência. Para comercializar o projeto, é essencial alinhar **aparência** com **função**:  
+- Se o robô tem um rosto expressivo, espera-se que ele **demonstre emoções e reaja socialmente**.  
+- Se ele possui rodas largas, espera-se que seja **estável e ágil**.  
+- A expectativa de “companheiro interativo” deve ser correspondida com respostas animadas, sons e expressões coerentes.  
+
+Se essas expectativas não forem atendidas, pode haver frustração e rejeição do produto. Por isso, o design deve reforçar a ideia de **entretenimento acessível e confiável**.  
+
+---
+
+## Antropomorfismo no Projeto  
+O robô apresenta **características parcialmente antropomórficas**: olhos, orelhas e torso lembram elementos humanos e animais, enquanto as rodas substituem as pernas. Esse **hibridismo** facilita a aceitação social, pois combina o “fofo” e familiar (olhos grandes, cabeça expressiva) com a praticidade mecânica (rodas, corpo simples).  
+
+Na sociedade atual, robôs excessivamente humanos podem gerar estranhamento (efeito *uncanny valley*), enquanto robôs totalmente mecânicos podem parecer frios e distantes. O meio-termo, como o escolhido no projeto, costuma ser mais aceito em contextos de **entretenimento e interação social**.  
+
+---
+
+## Design Mais Apropriado  
+O design mais adequado para o projeto é aquele que une **simplicidade construtiva** (formas geométricas básicas) e **expressividade visual**. Um modelo inicial pode ser representado por:  
+- **Cabeça**: esfera ou elipse achatada, com olhos circulares grandes.  
+- **Orelhas**: cilindros ou semiesferas laterais, articuláveis.  
+- **Torso**: ovalado (elipsoide), transmitindo suavidade e estabilidade.  
+- **Rodas**: dois cilindros grandes nas laterais inferiores, substituindo as pernas.  
+- **Pescoço**: cilindro fino que conecta o torso à cabeça, permitindo movimentos.  
+
+Esse uso de **formas primitivas (caixas, cilindros, esferas)** facilita tanto a prototipagem física quanto a modelagem digital, mantendo um estilo coerente com a proposta lúdica do robô.  
 
 # Modelos das Peças Individuais do Robô
 
