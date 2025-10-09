@@ -246,21 +246,58 @@ Esse uso de **formas primitivas (caixas, cilindros, esferas)** facilita tanto a 
 
 <img alt="Robô" src="robo.jpg" height="200"/>
 
-## Ações do robô
+## Ações do Robô
 
-- Para cada ação:
-  - Descreva a ação.
-  - Determine os pré-requisitos para que a ação aconteça
-  - Determine o que se espera que seja modificado no ambiente quando a ação é finalizada
+### 1. Aproximação
+- **Descrição:** O robô se locomove até o usuário, mantendo uma distância segura de aproximadamente 1 metro para iniciar a interação.  
+- **Pré-requisitos:** Detecção de uma pessoa pela câmera frontal e cálculo da distância através do sensor ultrassônico.  
+- **Efeito esperado no ambiente:** O robô se posiciona de forma visível e acessível ao usuário, estabelecendo o primeiro contato e criando a oportunidade de interação.
+
+### 2. Expressão emocional
+- **Descrição:** O robô altera o formato dos olhos e o movimento das orelhas conforme o tipo de gesto ou expressão detectada no usuário.  
+- **Pré-requisitos:** Reconhecimento de mão ou rosto ativo e classificação do gesto correspondente (ex: mão fechada, dois dedos, quatro dedos).  
+- **Efeito esperado no ambiente:** Criação de um ambiente mais empático e lúdico, estimulando o usuário a continuar interagindo.
+
+### 3. Acompanhamento visual
+- **Descrição:** O robô movimenta a cabeça e o olhar para acompanhar o rosto da pessoa em tempo real.  
+- **Pré-requisitos:** Rastreamento facial ativo e comunicação funcional entre os módulos de visão e servo motores do pescoço.  
+- **Efeito esperado no ambiente:** Geração de sensação de presença e atenção, como se o robô realmente estivesse observando e respondendo ao usuário.
+
+### 4. Evitação de obstáculos
+- **Descrição:** Ao identificar um objeto ou pessoa bloqueando seu caminho, o robô reduz a velocidade e busca uma trajetória alternativa. Caso não haja espaço, ele “olha” para a pessoa como se pedisse passagem.  
+- **Pré-requisitos:** Sensores ultrassônicos ou LiDAR detectando o obstáculo à frente.  
+- **Efeito esperado no ambiente:** O robô evita colisões e reforça uma percepção de comportamento socialmente inteligente.
+
+### 5. Animação de espera (idle)
+- **Descrição:** Quando não há usuários detectados, o robô realiza movimentos sutis — mexe levemente a cabeça e alterna expressões visuais nos olhos — simulando curiosidade e “vida”.  
+- **Pré-requisitos:** Nenhuma detecção de rosto ou gesto por um determinado tempo.  
+- **Efeito esperado no ambiente:** Aumentar o apelo visual e manter a atenção de possíveis observadores próximos.
 
 ## Interações do robô
 
-### Espacial
+## Interações do Robô
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+### Interações Espaciais
+
+#### 1. Aproximação controlada
+- **Descrição:** O robô detecta uma pessoa e se aproxima até ficar a cerca de 1 metro de distância, parando de modo a respeitar o espaço pessoal.  
+- **Pré-requisitos:** Detecção do usuário e cálculo de distância segura via sensores.  
+- **Resposta emocional esperada:** O usuário sente curiosidade e conforto, percebendo o robô como respeitoso e “educado”.
+
+#### 2. Recuo ou afastamento
+- **Descrição:** Caso o usuário se aproxime demais, o robô recua levemente, demonstrando consciência espacial.  
+- **Pré-requisitos:** Detecção de distância menor que o limite de segurança.  
+- **Resposta emocional esperada:** O usuário interpreta o gesto como natural e socialmente consciente, reforçando a percepção de inteligência.
+
+#### 3. Interação de passagem
+- **Descrição:** Quando alguém bloqueia sua rota, o robô inclina a cabeça e ajusta a postura como se “pedisse licença” antes de tentar contornar.  
+- **Pré-requisitos:** Sensor de distância detectando obstrução prolongada e reconhecimento de pessoa.  
+- **Resposta emocional esperada:** O usuário sente empatia e tende a abrir espaço, interpretando o robô como “educado” e interativo.
+
+#### 4. Acompanhamento lateral
+- **Descrição:** O robô ajusta a rotação da cabeça ou do corpo para manter o usuário em seu campo de visão enquanto ele se move lateralmente.  
+- **Pré-requisitos:** Rastreamento facial ativo.  
+- **Resposta emocional esperada:** O usuário sente-se observado de maneira amistosa, criando uma sensação de conexão.
 
 ### Verbal
 
@@ -269,12 +306,32 @@ Esse uso de **formas primitivas (caixas, cilindros, esferas)** facilita tanto a 
   - Determine os pré-requisitos para que a interação aconteça
   - Determine espera de resposta emocional do usúario quando a interação é finalizada
 
-### Não-verbal
+### Interações Não Verbais
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+#### 1. Detecção e reconhecimento visual
+- **Descrição:** O robô identifica o rosto do usuário e começa a seguir seus movimentos verticais e horizontais com a cabeça.  
+- **Pré-requisitos:** Sistema de visão ativo e iluminação suficiente.  
+- **Resposta emocional esperada:** O usuário percebe atenção e presença, aumentando a imersão na interação.
+
+#### 2. Gesto de mão fechada (emoção: bravo)
+- **Descrição:** Ao detectar uma mão fechada, o robô inclina a cabeça para frente e posiciona as orelhas para trás, com olhos de expressão “brava”.  
+- **Pré-requisitos:** Reconhecimento de mão ativa e gesto de punho fechado.  
+- **Resposta emocional esperada:** O usuário sente surpresa e diversão ao ver o robô reagir emocionalmente.
+
+#### 3. Gesto com dois dedos levantados (emoção: confuso/fofo)
+- **Descrição:** O robô inclina a cabeça para um dos lados, alternando entre esquerda e direita, simulando confusão ou curiosidade.  
+- **Pré-requisitos:** Reconhecimento do gesto com dois dedos levantados.  
+- **Resposta emocional esperada:** O usuário sente empatia e tende a rir, percebendo o robô como carismático.
+
+#### 4. Gesto com quatro ou mais dedos levantados (emoção: feliz)
+- **Descrição:** O robô exibe olhos em formato alegre e move as orelhas para cima e para os lados em ritmo rápido, simulando entusiasmo.  
+- **Pré-requisitos:** Reconhecimento do gesto com quatro ou mais dedos.  
+- **Resposta emocional esperada:** O usuário sente alegria e tende a repetir o gesto para continuar a “conversa emocional”.
+
+#### 5. Estado de ociosidade (idle animado)
+- **Descrição:** Na ausência de estímulos visuais, o robô alterna expressões, movimenta as orelhas e gira levemente a cabeça, simulando curiosidade e expectativa.  
+- **Pré-requisitos:** Tempo prolongado sem detecção de pessoa ou gesto.  
+- **Resposta emocional esperada:** O usuário percebe o robô como “vivo”, mesmo quando inativo, aumentando o engajamento.
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
