@@ -326,7 +326,7 @@ Nós adicionamos para esta disciplina um módulo de áudio, que emite sons com f
 #### 4. Reação para o gesto de mão aberta (emoção: feliz)
 - **Descrição:** Caso o usuário mostre uma mão aberta para o robô, ele ficará feliz pois é um sinal fantasioso que identifica os amigos do robô. Desta forma, o robô tocará 2 vezes rapidamente o som de busca com eco, porém com um tom mais agudo.
 - **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
-- **Resposta emocional esperada:** O usuário sentirá um pouco de surpresa e alegria, isso é interessante para manter as interações emocionalmente mais abrangentes.
+- **Resposta emocional esperada:** O usuário sentirá um pouco de surpresa e alegria.
 
 #### 5. Reação para o gesto de dois dedos levantados (emoção: confuso/fofo)
 - **Descrição:** Caso o usuário mostre apenas dois dedos levantados para o robô, ele ficará confuso pois é um sinal que ele não reconhece como inimigo ou amigo. Desta forma, o robô tocará 2 vezes rapidamente o som de busca com eco. 
