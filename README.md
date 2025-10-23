@@ -299,12 +299,40 @@ Esse uso de **formas primitivas (caixas, cilindros, esferas)** facilita tanto a 
 - **Pré-requisitos:** Rastreamento facial ativo.  
 - **Resposta emocional esperada:** O usuário sente-se observado de maneira amistosa, criando uma sensação de conexão.
 
-### Verbal
+### Interações Verbais
 
-- Para cada interação:
-  - Descreva a interação.
-  - Determine os pré-requisitos para que a interação aconteça
-  - Determine espera de resposta emocional do usúario quando a interação é finalizada
+Nós adicionamos para esta disciplina um módulo de áudio, que emite sons com frequências customizáveis. Queremos aproximar o lado fantasioso do personagem que seria um robô de exploração, e uma de suas funcionalidades seria escanear a região a procura de pessoas ou objetos. Então, os seus sons são utilizados para comunicar o que ele está fazendo durante esse processo de procura e identificação de pessoas. 
+
+#### 1. Estado de procura por pessoas (emoção: neutro/curioso)
+- **Descrição:** O robô faz movimentos suaves com a cabeça indo de um lado para o outro. Enquanto isso ele emite sons curtos de uma nota que possuem eco, semelhante a de um sonar ouvido em filmes com submarinos. Ele entra neste estado de vez em quando se estiver em modo idle.
+- **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
+- **Resposta emocional esperada:** O usuário consegue ser avisado da presença do robô na área e pode compreender que ele está procurando por algo, isso levanta curiosidade no usuário.
+
+#### 2. Detecção de pessoas (emoção: surpreso)
+- **Descrição:** Assim que a câmera detectar uma pessoa, ele centraliza o seu rosto em direção à pessoa. Então ele emite 5 vezes rapidamente o som utilizado na procura, mas dessa vez com menos eco nas 4 primeiras notas e um longo na quinta, como se estivesse ativando um alarme. Depois não emite mais som, e fica esperando qual será a resposta do usuário.
+- **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
+- **Resposta emocional esperada:** O usuário ficará um pouco surpreso com a identificação do robô, isso é intencional para deixar a interação mais animada e se encaixa com a funcionalidade fantasiosa do robô de fazer a procura de pessoas.
+
+#### 3. Estado de idle com uma pessoa detectada (emoção: alerta)
+- **Descrição:** Este é um estado em que o robô detectou uma pessoa em sua frente mas ela ainda não realizou algum gesto de mão para se identificar. Ele inclina a cabeça levemente para um lado de vez em quando e emite 2 vezes rapidamente o som utilizado na busca, com pouco eco para indicar que está atento. 
+- **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
+- **Resposta emocional esperada:** O usuário sentirá que o robô está prestando atenção, reforçando a sensação de que o robô está "vivo".
+
+#### 4. Reação para o gesto de mão fechada (emoção: bravo)
+- **Descrição:** Caso o usuário mostre uma mão fechada para o robô, ele ficará bravo pois é um sinal fantasioso que identifica os inimigos do robô. Desta forma, o robô tocará 2 vezes rapidamente o som de busca com eco, porém com um tom mais grave. 
+- **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
+- **Resposta emocional esperada:** O usuário sentirá um pouco de medo ou surpresa, isso é interessante para manter as interações emocionalmente mais abrangentes.
+
+#### 4. Reação para o gesto de mão aberta (emoção: feliz)
+- **Descrição:** Caso o usuário mostre uma mão aberta para o robô, ele ficará feliz pois é um sinal fantasioso que identifica os amigos do robô. Desta forma, o robô tocará 2 vezes rapidamente o som de busca com eco, porém com um tom mais agudo.
+- **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
+- **Resposta emocional esperada:** O usuário sentirá um pouco de surpresa e alegria, isso é interessante para manter as interações emocionalmente mais abrangentes.
+
+#### 5. Reação para o gesto de dois dedos levantados (emoção: confuso/fofo)
+- **Descrição:** Caso o usuário mostre apenas dois dedos levantados para o robô, ele ficará confuso pois é um sinal que ele não reconhece como inimigo ou amigo. Desta forma, o robô tocará 2 vezes rapidamente o som de busca com eco. 
+- **Pré-requisitos:** Sistema de visão ativo, iluminação suficiente e caixa de som.  
+- **Resposta emocional esperada:** O usuário sentirá alegria vendo o rosto fofo do robô tentando decifrar o que o usuário simbolizou.
+
 
 ### Interações Não Verbais
 
