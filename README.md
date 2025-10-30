@@ -363,6 +363,8 @@ Nós adicionamos para esta disciplina um módulo de áudio, que emite sons com f
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
+
+Link para montar o diagrama MoLIC: https://feiedu-my.sharepoint.com/:p:/g/personal/unielibarra_fei_edu_br/ESHRZumoBp1GpyJ4dk2_XiABB8omBL4QgifLEnLVBxbx5g?e=5mL35r
 <!-- TODOs:
 - Add exemplos
  -->
