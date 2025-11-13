@@ -59,13 +59,13 @@ Lucas tem 21 anos de idade e está cursando ensino superior em uma área de tecn
 
 ### Mapa de empatia
 
-#### Mapa de empatia de Enzo:
+#### Mapa de empatia de Noah:
 ![Mapa de empatia](meEnzo.png)
 
 #### Mapa de empatia de João:
 ![Mapa de empatia](meJoao.png)
 
-#### Mapa de empatia de Lucas:
+#### Mapa de empatia de Pedro:
 ![Mapa de empatia](meLucas.png)
 
 ## Contexto de uso
