@@ -356,4 +356,4 @@ Nós adicionamos para esta disciplina um módulo de áudio, que emite sons com f
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
-Apresentação: https://github.com/Prii15/IHR/WBR.mp4
+Apresentação: [https://github.com/Prii15/IHR/WBR.mp4](https://github.com/Prii15/IHR/blob/main/WBR.mp4)
