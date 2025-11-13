@@ -105,13 +105,6 @@ Para garantir uma interação fluida e coerente, o robô deve ter conhecimento p
 
 ## Jornada do usuário
 
-- Criar uma narrativa para o o seu robô e o usuário.
-- Determine o passo a passo que o usuário realiza desde o primeiro até o último encontro com robô na realização da tarefa.
-- O que está acontecendo com o ambiente quando o robô está interagindo com o usuário?
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
-- Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
-
 ### Estado inicial (Idle)
 O robô está posicionado em um ambiente com várias pessoas.
 Permanece em “modo de espera”, exibindo expressões curiosas nos olhos e movimentos sutis (como piscar e mexer levemente a cabeça/orelhas) para parecer “vivo” mesmo sem interação.
